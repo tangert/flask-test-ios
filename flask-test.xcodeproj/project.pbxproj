@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3608500E1E6CC15C000D0E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608500D1E6CC15C000D0E64 /* AppDelegate.swift */; };
+		360850101E6CC15C000D0E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608500F1E6CC15C000D0E64 /* ViewController.swift */; };
+		360850131E6CC15C000D0E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360850111E6CC15C000D0E64 /* Main.storyboard */; };
+		360850151E6CC15C000D0E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360850141E6CC15C000D0E64 /* Assets.xcassets */; };
+		360850181E6CC15C000D0E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360850161E6CC15C000D0E64 /* LaunchScreen.storyboard */; };
+		360850231E6CC15C000D0E64 /* flask_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360850221E6CC15C000D0E64 /* flask_testTests.swift */; };
+		3608502E1E6CC15C000D0E64 /* flask_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608502D1E6CC15C000D0E64 /* flask_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3608501F1E6CC15C000D0E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360850021E6CC15C000D0E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360850091E6CC15C000D0E64;
+			remoteInfo = "flask-test";
+		};
+		3608502A1E6CC15C000D0E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360850021E6CC15C000D0E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360850091E6CC15C000D0E64;
+			remoteInfo = "flask-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3608500A1E6CC15C000D0E64 /* flask-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flask-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3608500D1E6CC15C000D0E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3608500F1E6CC15C000D0E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		360850121E6CC15C000D0E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		360850141E6CC15C000D0E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		360850171E6CC15C000D0E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		360850191E6CC15C000D0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3608501E1E6CC15C000D0E64 /* flask-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flask-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360850221E6CC15C000D0E64 /* flask_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_testTests.swift; sourceTree = "<group>"; };
+		360850241E6CC15C000D0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360850291E6CC15C000D0E64 /* flask-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flask-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3608502D1E6CC15C000D0E64 /* flask_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_testUITests.swift; sourceTree = "<group>"; };
+		3608502F1E6CC15C000D0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360850071E6CC15C000D0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3608501B1E6CC15C000D0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360850261E6CC15C000D0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360850011E6CC15C000D0E64 = {
+			isa = PBXGroup;
+			children = (
+				3608500C1E6CC15C000D0E64 /* flask-test */,
+				360850211E6CC15C000D0E64 /* flask-testTests */,
+				3608502C1E6CC15C000D0E64 /* flask-testUITests */,
+				3608500B1E6CC15C000D0E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3608500B1E6CC15C000D0E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3608500A1E6CC15C000D0E64 /* flask-test.app */,
+				3608501E1E6CC15C000D0E64 /* flask-testTests.xctest */,
+				360850291E6CC15C000D0E64 /* flask-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3608500C1E6CC15C000D0E64 /* flask-test */ = {
+			isa = PBXGroup;
+			children = (
+				3608500D1E6CC15C000D0E64 /* AppDelegate.swift */,
+				3608500F1E6CC15C000D0E64 /* ViewController.swift */,
+				360850111E6CC15C000D0E64 /* Main.storyboard */,
+				360850141E6CC15C000D0E64 /* Assets.xcassets */,
+				360850161E6CC15C000D0E64 /* LaunchScreen.storyboard */,
+				360850191E6CC15C000D0E64 /* Info.plist */,
+			);
+			path = "flask-test";
+			sourceTree = "<group>";
+		};
+		360850211E6CC15C000D0E64 /* flask-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				360850221E6CC15C000D0E64 /* flask_testTests.swift */,
+				360850241E6CC15C000D0E64 /* Info.plist */,
+			);
+			path = "flask-testTests";
+			sourceTree = "<group>";
+		};
+		3608502C1E6CC15C000D0E64 /* flask-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3608502D1E6CC15C000D0E64 /* flask_testUITests.swift */,
+				3608502F1E6CC15C000D0E64 /* Info.plist */,
+			);
+			path = "flask-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360850091E6CC15C000D0E64 /* flask-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360850321E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-test" */;
+			buildPhases = (
+				360850061E6CC15C000D0E64 /* Sources */,
+				360850071E6CC15C000D0E64 /* Frameworks */,
+				360850081E6CC15C000D0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flask-test";
+			productName = "flask-test";
+			productReference = 3608500A1E6CC15C000D0E64 /* flask-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3608501D1E6CC15C000D0E64 /* flask-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360850351E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-testTests" */;
+			buildPhases = (
+				3608501A1E6CC15C000D0E64 /* Sources */,
+				3608501B1E6CC15C000D0E64 /* Frameworks */,
+				3608501C1E6CC15C000D0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360850201E6CC15C000D0E64 /* PBXTargetDependency */,
+			);
+			name = "flask-testTests";
+			productName = "flask-testTests";
+			productReference = 3608501E1E6CC15C000D0E64 /* flask-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		360850281E6CC15C000D0E64 /* flask-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360850381E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-testUITests" */;
+			buildPhases = (
+				360850251E6CC15C000D0E64 /* Sources */,
+				360850261E6CC15C000D0E64 /* Frameworks */,
+				360850271E6CC15C000D0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3608502B1E6CC15C000D0E64 /* PBXTargetDependency */,
+			);
+			name = "flask-testUITests";
+			productName = "flask-testUITests";
+			productReference = 360850291E6CC15C000D0E64 /* flask-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360850021E6CC15C000D0E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tyler Angert";
+				TargetAttributes = {
+					360850091E6CC15C000D0E64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8TWVWBQE3T;
+						ProvisioningStyle = Automatic;
+					};
+					3608501D1E6CC15C000D0E64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8TWVWBQE3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 360850091E6CC15C000D0E64;
+					};
+					360850281E6CC15C000D0E64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8TWVWBQE3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 360850091E6CC15C000D0E64;
+					};
+				};
+			};
+			buildConfigurationList = 360850051E6CC15C000D0E64 /* Build configuration list for PBXProject "flask-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360850011E6CC15C000D0E64;
+			productRefGroup = 3608500B1E6CC15C000D0E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360850091E6CC15C000D0E64 /* flask-test */,
+				3608501D1E6CC15C000D0E64 /* flask-testTests */,
+				360850281E6CC15C000D0E64 /* flask-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360850081E6CC15C000D0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360850181E6CC15C000D0E64 /* LaunchScreen.storyboard in Resources */,
+				360850151E6CC15C000D0E64 /* Assets.xcassets in Resources */,
+				360850131E6CC15C000D0E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3608501C1E6CC15C000D0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360850271E6CC15C000D0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360850061E6CC15C000D0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360850101E6CC15C000D0E64 /* ViewController.swift in Sources */,
+				3608500E1E6CC15C000D0E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3608501A1E6CC15C000D0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360850231E6CC15C000D0E64 /* flask_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360850251E6CC15C000D0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3608502E1E6CC15C000D0E64 /* flask_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360850201E6CC15C000D0E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360850091E6CC15C000D0E64 /* flask-test */;
+			targetProxy = 3608501F1E6CC15C000D0E64 /* PBXContainerItemProxy */;
+		};
+		3608502B1E6CC15C000D0E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360850091E6CC15C000D0E64 /* flask-test */;
+			targetProxy = 3608502A1E6CC15C000D0E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		360850111E6CC15C000D0E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360850121E6CC15C000D0E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		360850161E6CC15C000D0E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360850171E6CC15C000D0E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		360850301E6CC15C000D0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		360850311E6CC15C000D0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360850331E6CC15C000D0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		360850341E6CC15C000D0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		360850361E6CC15C000D0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flask-test.app/flask-test";
+			};
+			name = Debug;
+		};
+		360850371E6CC15C000D0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flask-test.app/flask-test";
+			};
+			name = Release;
+		};
+		360850391E6CC15C000D0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "flask-test";
+			};
+			name = Debug;
+		};
+		3608503A1E6CC15C000D0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8TWVWBQE3T;
+				INFOPLIST_FILE = "flask-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tangert.flask-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "flask-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360850051E6CC15C000D0E64 /* Build configuration list for PBXProject "flask-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360850301E6CC15C000D0E64 /* Debug */,
+				360850311E6CC15C000D0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360850321E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360850331E6CC15C000D0E64 /* Debug */,
+				360850341E6CC15C000D0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		360850351E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360850361E6CC15C000D0E64 /* Debug */,
+				360850371E6CC15C000D0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		360850381E6CC15C000D0E64 /* Build configuration list for PBXNativeTarget "flask-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360850391E6CC15C000D0E64 /* Debug */,
+				3608503A1E6CC15C000D0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360850021E6CC15C000D0E64 /* Project object */;
+}
